@@ -16,4 +16,4 @@ jobs:
       - name: Get into Project
         run: pwd
       - name: Build with Maven
-        run: cd my-app && mvn --batch-mode --update-snapshots verify
+        run: cd my-app && mvn --batch-mode --update-snapshots test
