@@ -28,7 +28,7 @@ public class AppTest
 
     @Test
     public void testNumber10() {
-        assertEquals(10, App.getNumber10());
+        assertEquals(11, App.getNumber10());
     }
 
     @Test
