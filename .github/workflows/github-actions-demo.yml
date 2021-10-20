@@ -14,6 +14,6 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Get into Project
-        run: cd my-app
+        run: pwd
       - name: Build with Maven
-        run: mvn --batch-mode --update-snapshots verify
+        run: cd my-app && mvn --batch-mode --update-snapshots verify
